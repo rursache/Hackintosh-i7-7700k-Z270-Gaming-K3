@@ -5,7 +5,7 @@ Clover EFI for a 100% stable 7700k + Z270 Hackintosh
 
 Complete hardware specs:
 - i7 7700k OC to 4.8GHz
-- Z270 Gaming K3
+- Gigabyte Z270 Gaming K3
 - Noctua NH-D15
 - Radeon RX 5700 XT 8 GB
 - Fenvi T919
