@@ -29,6 +29,7 @@ The system dual boots Windows 10
 - All USB ports
 - 1Gbit Ethernet
 - IGPU (must be enabled in BIOS and then in clover, i currently have it disabled but it works 100%)
+- Temperature monitoring for everything except GPU (no 5700xt temp support in VirtualSMC)
 - DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
 - Shutdown/Reboot/Update to newer macOS builds over time
 
