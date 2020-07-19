@@ -10,6 +10,7 @@ Complete hardware specs:
 - Radeon RX 5700 XT 8 GB
 - Fenvi T919
 - 64GB RAM - 3200 MHz DDR4
+- 500GB Kingston A2000 NVMe PCIe SSD (macOS Partition) + other HDDs for storage (shared with Windows)
 
 **SMBIOS**: iMacPro1,1
 
