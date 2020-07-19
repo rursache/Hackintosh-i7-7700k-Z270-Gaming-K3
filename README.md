@@ -17,6 +17,7 @@ Complete hardware specs:
 The system dual boots Windows 10
 
 ## Get it running
+0. Make sure to update your BIOS, disable VT-d, disable CSM support and enable XHCI Hand-off (for Airdrop/Continuity/Sidecar)
 1. Create an macOS Catalina 10.15.x USB-Installer Stick ([how?](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/building-the-usb-installer))
 2. Install Clover bootloader to the same partition ([how?](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/clover-setup))
 3. Copy the EFI folder ([how?](https://www.youtube.com/watch?v=arebuadFSuw))
@@ -25,10 +26,12 @@ The system dual boots Windows 10
 
 ## What works
 - macOS Catalina and macOS Big Sur
-- WiFi and Bluetooth + Airdrop + Sidecar
+- WiFi and Bluetooth + Airdrop + Sidecar + Continuity (OOB thanks to Fenvi T919)
 - Audio
+- HDMI/DP (OOB thanks to 5700 XT)
 - All USB ports
 - 1Gbit Ethernet
+- Everything iCloud related (Drive, iMessage, Facetime, unlock with Apple Watch, etc)
 - IGPU (must be enabled in BIOS and then in clover, i currently have it disabled but it works 100%)
 - Temperature monitoring for everything except GPU (no 5700xt temp support in VirtualSMC)
 - DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
