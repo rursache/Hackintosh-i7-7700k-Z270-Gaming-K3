@@ -1,5 +1,5 @@
 # Hackintosh - Intel i7 7700k + Z270 Gaming K3
-Clover EFI for a 100% stable 7700k + Z270 Hackintosh
+Clover EFI for a 100% stable Intel i7 7700k + Z270 Gaming K3 Hackintosh
 
 **Latest working macOS**: 10.15.6
 
