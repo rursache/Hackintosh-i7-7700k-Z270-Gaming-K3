@@ -38,3 +38,9 @@ The system dual boots Windows 10
 - Sleep? Never got the chance to test it, my hackintosh is up 24/7
 
 ![alt text](https://i.imgur.com/TfIT7Nu.jpg "neofetch")
+
+## Thanks/Credits
+- tonymacx86
+- insanelymac
+
+**Fuck /r/Hackintosh for now allowing EFI sharing**
