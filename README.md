@@ -17,10 +17,10 @@ Complete hardware specs:
 The system dual boots Windows 10
 
 ## Get it running
-1. Create an macOS Catalina 10.15.x USB-Installer Stick
-2. Install Clover bootloader to the same partition
-3. Copy the EFI folder
-4. Generate a new serial number, motherboard id and SMUUID (make sure serial number is invalid in order to iMessage/Facetime to work)
+1. Create an macOS Catalina 10.15.x USB-Installer Stick ([how?](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/building-the-usb-installer))
+2. Install Clover bootloader to the same partition ([how?](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/clover-setup))
+3. Copy the EFI folder ([how?](https://www.youtube.com/watch?v=arebuadFSuw))
+4. Generate a new serial number, motherboard id and SMUUID (make sure serial number is **invalid** in order to iMessage/Facetime to work) ([how?](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/config.plist-per-hardware/skylake#explanation-5) + [this tool](http://mackie100projects.altervista.org/download-clover-configurator/))
 5. Boot the new macOS partition
 
 ## What works
@@ -38,6 +38,23 @@ The system dual boots Windows 10
 - Sleep? Never got the chance to test it, my hackintosh is up 24/7
 
 ![alt text](https://i.imgur.com/TfIT7Nu.jpg "neofetch")
+
+## Kexts used:
+- AppleALC (audio)
+- AtherosE2200Ethernet (ethernet)
+- Lilu + Whatevergreen (Audio helper, DRM support, GPU helper)
+- VirtualSMC + addons (you cannot boot without this + temperature support)
+- USBInjectAll (make USB ports work)
+
+## Drivers used:
+- ApfsDriverLoader (make APFS drives discoverable in Clover bootloader)
+- FSInject (required driver to inject kexts)
+- HFSPlus (optional, make HFS drives discoverable in Clover bootloader if you want to use Mojave or older macOS versions)
+- NvmExpressDxe (required to boot and use a "non-Apple" NVM SSD)
+- OsxAptioFix3Drv (required to patch some motherboard stuff in order to boot and not kernel panic)
+- PartitionDxe (optional, support for custom partition types)
+- Ps2MouseDxe (optional, support for non-bluetooth mouse and keyboard)
+- VirtualSmc (required, works with the kext)
 
 ## Thanks/Credits
 - tonymacx86
