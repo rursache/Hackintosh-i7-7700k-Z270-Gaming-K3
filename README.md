@@ -43,4 +43,5 @@ The system dual boots Windows 10
 - tonymacx86
 - insanelymac
 
-**Fuck /r/Hackintosh for now allowing EFI sharing**
+
+**Fuck /r/Hackintosh for not allowing EFI sharing**
