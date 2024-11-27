@@ -1,3 +1,8 @@
+> [!WARNING]
+> This repo is archived due to the fact that I migrated over to new hardware, the new repo is [here](https://github.com/rursache/Hackintosh-13900k-Z690-AORUS-ELITE-AX-DDR5-AMD-6900XT)
+
+----
+
 # Hackintosh - Intel i7 7700k + Z270 Gaming K3
 Clover EFI for a 100% stable Intel i7 7700k + Z270 Gaming K3 Hackintosh
 
